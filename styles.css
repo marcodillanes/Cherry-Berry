@@ -1,8 +1,24 @@
 /* div tag connects to the div tag in the html */
 /* giving tags class or id attributes allows for easier CSS styling selections in bigger projects */
 
-div {
+header {
     width: 300px; 
     height: 200px; 
     background-color: blue
+}
+
+section {
+    width: 300px;
+    height: 200px;
+    background-color: crimson;
+}
+
+/* to denote a class, i would use a '.' */
+/* because css works downards, the denoted div 'about' only overwrites the background color, it still applies the above divs width and height! */
+/* to remove the above divs styling elements either it would need to be deleted or the related html tag would need its own classname to seperate the two  */
+
+.about {
+    width: 300px;
+    height: 100px;
+    background-color: aliceblue;
 }
