@@ -1,1 +1,8 @@
-/*  */
+/* div tag connects to the div tag in the html */
+/* giving tags class or id attributes allows for easier CSS styling selections in bigger projects */
+
+div {
+    width: 300px; 
+    height: 200px; 
+    background-color: blue
+}
