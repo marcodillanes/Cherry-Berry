@@ -4,13 +4,13 @@
 header {
     width: 300px; 
     height: 200px; 
-    background-color: blue
+    background-color: rgb(67, 27, 127)
 }
 
 section {
     width: 300px;
     height: 200px;
-    background-color: crimson;
+    background-color: rgb(153, 14, 41);
 }
 
 /* to denote a class, i would use a '.' */
@@ -20,12 +20,12 @@ section {
 .about {
     width: 300px;
     height: 100px;
-    background-color: aliceblue;
+    background-color: rgb(154, 196, 234);
     /* the box model consists of a box that wraps around the html element */
     /* the margin is the outer most property, followed by the border, and then the padding and finally the actual content itself! */
     
     margin: 10px;
-    border: solid black 10px;
+    border: solid rgb(46, 45, 45) 10px;
     border-radius: 15px;
 
 }
